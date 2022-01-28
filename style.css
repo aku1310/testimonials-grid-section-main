@@ -1,0 +1,78 @@
+:root {
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: block; */
+    background-color: var(--Light-grayish-blue);
+}
+
+.grid-tiles {
+    display: grid;
+    grid-template-areas: "one"
+                            "two"
+                            "three"
+                            "four"
+                            "five";
+}
+
+.card {
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.grid-one {
+    grid-area: one;
+    background-color: var(--Moderate-violet);
+}
+
+.grid-two {
+    grid-area: two;
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+.grid-three {
+    grid-area: three;
+    background-color: var(--White);
+}
+
+.grid-four {
+    grid-area: four;
+    background-color: var(--Very-dark-blackish-blue);
+}
+
+.grid-five {
+    grid-area: five;
+    background-color: var(--White);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
