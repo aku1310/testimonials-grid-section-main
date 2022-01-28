@@ -60,6 +60,7 @@ body {
 .quote {
     opacity: 70%;
     padding-top: 1rem;
+    line-height: 1.4rem;
 }
 
 img {
@@ -76,6 +77,12 @@ img {
     grid-area: one;
     background-color: var(--Moderate-violet);
 }
+
+/* .quotation {
+    visibility: none;
+    position: absolute;
+    padding-left: 50vw;
+} */
 
 .grid-two {
     grid-area: two;
@@ -103,10 +110,33 @@ img {
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.9rem; 
     text-align: center; 
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 900px){
+    .grid-tiles {
+        grid-template-areas: "one one two five"
+                             "three four four five";
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 1.8rem;
+    }
+
+    .card {
+        margin: 1rem;
+        padding: 1.3rem;
+    }
+
+    .heading {
+        font-size: 0.97rem;
+    }
+
+    .quote {
+        padding-top: 1.3rem;
+    }
+
 }
