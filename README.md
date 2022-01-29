@@ -36,8 +36,8 @@ Mobile View
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aku1310/testimonials-grid-section-main)
-- Live Site URL: [Add live site URL here](https://aku1310.github.io/testimonials-grid-section-main/)
+- Solution URL: [GitHub Repository](https://github.com/aku1310/testimonials-grid-section-main)
+- Live Site URL: [GitHub Pages](https://aku1310.github.io/testimonials-grid-section-main/)
 
 ## My process
 
