@@ -113,6 +113,11 @@ img {
     padding-top: 1rem;
 }
 
+.text {
+    position: relative;
+    z-index: 1;
+}
+
 .attribution { 
     font-size: 0.9rem; 
     text-align: center; 
@@ -160,8 +165,8 @@ img {
 
     .quotation img {
         height: 15%;
-        width: 15%;
-        margin-left: 17vw;
+        width: 10%;
+        margin-left: 20vw;
         margin-top: -3vh;
         z-index: 0;
     }
