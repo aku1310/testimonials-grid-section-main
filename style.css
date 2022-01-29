@@ -78,11 +78,15 @@ img {
     background-color: var(--Moderate-violet);
 }
 
-/* .quotation {
-    visibility: none;
+.quotation img {
     position: absolute;
-    padding-left: 50vw;
-} */
+    border-radius: 0;
+    height: 18%;
+    width: 18%;
+    margin-left: 60vw;
+    margin-top: -4vh;
+    z-index: 0;
+}
 
 .grid-two {
     grid-area: two;
@@ -123,20 +127,43 @@ img {
         grid-template-areas: "one one two five"
                              "three four four five";
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 1.8rem;
+        margin: 1rem;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 80vw;
     }
 
     .card {
-        margin: 1rem;
-        padding: 1.3rem;
+        margin: 0.7rem;
+        padding: 1.5rem;
+    }
+
+    .quote {
+        font-size: 0.85rem;
     }
 
     .heading {
-        font-size: 0.97rem;
+        font-size: 0.85rem;
     }
 
     .quote {
         padding-top: 1.3rem;
+    }
+
+    .quotation img {
+        height: 15%;
+        width: 15%;
+        margin-left: 17vw;
+        margin-top: -3vh;
+        z-index: 0;
     }
 
 }
